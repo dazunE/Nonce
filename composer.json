@@ -1,0 +1,26 @@
+{
+    "name": "dazune/nonces",
+    "description": "Object Oriented package for handle nonces in WordPress",
+    "type": "package",
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    },
+  "autoload":{
+    "psr-4":{
+      "DasunE\\Nonces\\":"inc/"
+    },
+    "files":[
+      "inc/helpers.php"
+    ]
+  },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dasun Edirisinghe",
+            "email": "dazunj4me@gmail.com"
+        }
+    ]
+}
